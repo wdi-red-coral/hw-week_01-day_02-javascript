@@ -154,9 +154,11 @@ var fizbuzz = function(index){
         console.log("Buzz");
     else
         console.log(index);
-    }
+    
     index++;
     fizbuzz(index)
+    }
+    
 }
 fizbuzz(0);
 ```
