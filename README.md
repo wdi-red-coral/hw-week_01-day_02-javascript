@@ -132,6 +132,7 @@ if ( num % 10 === 0 && num % 5 ===0 ) {
 let vNum = 50 ; 
 for (let i = 0 ; i <= vNum ; i++ ){
 if ( i % 10 === 0 && i % 5 ===0 ) {
+     // I just print the i to make the user know which number is from these situation 
      console.log(i+ ' is fizzbuzz')
 } else if ( i % 3 === 0 ) {
      console.log(i+ ' is fizz')
@@ -141,7 +142,7 @@ if ( i % 10 === 0 && i % 5 ===0 ) {
     console.log(i)
 }
 
-}
+}// end for loop
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
