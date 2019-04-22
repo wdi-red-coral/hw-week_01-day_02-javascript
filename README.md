@@ -117,11 +117,11 @@ let num = 56;
 if ( num % 3 === 0 && num % 5 ===0 ) {
      console.log('fizzbuzz')
 } else if ( num % 3 === 0 ) {
-     console.log('fizz')
+     console.log('fizz');
 } else if ( num % 5 === 0 ) {
      console.log('buzz')
 } else {
-    console.log(num)
+    console.log(num);
 }
 
 ```
@@ -157,7 +157,7 @@ function myFunction (num) {
 } else if ( num % 5 === 0 ) {
      console.log('buzz');
 } else {
-    console.log(num)
+    console.log(num);
 }
 }
 myFunction(70);
