@@ -22,17 +22,19 @@ c = a;
 ```
 
 ### Your solution here:
+
+
 1.  What is `a`?
 ```
-a is ...
+a is ...  bongos 
 ```
 2.  What is `b`?
 ```
-b is ...
+b is ... true
 ```
 3.  What is `c`?
 ```
-c is ...
+c is ... bongos
 ```
 
 ## Concatenation
@@ -52,7 +54,9 @@ Result should be:
 ### Your solution here:
 4.  Fill in the `console.log()`?
 ```js
-console.log()
+
+console.log(firstWord+ " " + secondWord +" "+thirdWord+" "+ fourthWord);
+
 ```
 
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
@@ -65,6 +69,16 @@ const num2 = 10;
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 // your solution here
+const num1 = 5
+undefined
+const num2 = 10
+undefined
+ sum2 = num1+num2;
+15
+
+console.log("The sum of 5 and 10 is " +sum2 );
+The sum of 5 and 10 is 15
+
 ```
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
@@ -89,14 +103,15 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+
+a) false
+b) true
+c)false
+d) false
+e) false
+f) false
+g) true
+h) false
 ```
 
 ## Conditionals
@@ -112,16 +127,43 @@ Write a conditional statement that...
 8.  Write your javascript solution below
 ```js
 // your answer here
+
+if (number  % 3 === 0){
+console.log("Fizz");
+}else if (number % 5 === 0){
+console.log("Buzz");
+}
+else if (number % 3 === 0 && number % 5 === 0){
+console.log("FizzBuzz");
+}else console.log(number);
 ```
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
 // your answer here
+
+
+while (loop <=100){
+alert(loop);
+loop++;
+}
+100
+
+
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
 // your answer here
+let num11;
+function test(loop , num11 ){
+while (loop <=num11){
+alert(loop);
+loop++;
+}
+} 
+
+test(0,7)
 ```
 
 # Additional Resources
