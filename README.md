@@ -24,15 +24,15 @@ c = a;
 ### Your solution here:
 1.  What is `a`?
 ```
-a is ...
+a is bongos...
 ```
 2.  What is `b`?
 ```
-b is ...
+b is .true..
 ```
 3.  What is `c`?
 ```
-c is ...
+c is .bongos..
 ```
 
 ## Concatenation
