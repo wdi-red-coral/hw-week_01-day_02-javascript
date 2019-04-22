@@ -11,7 +11,8 @@
 ## Assignment Operator
 Without running the following code, try to determine:
 
-```js
+# Javascript Homework
+
 let a = 1;
 let b = 'bongos';
 let c = true;
@@ -21,18 +22,18 @@ b = c;
 c = a;
 ```
 
-### Your solution here:
+
 1.  What is `a`?
-```
-a is ...
+
+a is "bongos"
 ```
 2.  What is `b`?
 ```
-b is ...
+b is true
 ```
 3.  What is `c`?
 ```
-c is ...
+c is bongos
 ```
 
 ## Concatenation
@@ -51,8 +52,9 @@ Result should be:
 
 ### Your solution here:
 4.  Fill in the `console.log()`?
-```js
-console.log()
+
+console.log(firstWord +" " + secondWord + " " +thirdWord +" " +fourthWord);
+
 ```
 
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
@@ -61,17 +63,23 @@ const num1 = 5;
 const num2 = 10;
 ```
 
+console.log("The sum of "+num1 +" "+"and"+ " " +num2); 
+console.log(num1 + num2 );
+
 ### Your solution here:
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-// your solution here
+
+var num3 = num1 + num2;
+console.log(num3);
 ```
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
 >The sum of 5 and 10 is 15
 
 ```js
-console.log()
+console.log("The sum of "+" "+num1 +" " +"and"+" "+num2 +" " + "is"+" " + num3);
+
 ```
 
 ## Comparisons
@@ -89,14 +97,14 @@ h) 9 !== 8 + 1
 ### Your solution here:
 7.  Write `true` or `false` based on the list above
 ```
-a) 
-b)  
-c)
-d) 
-e) 
-f) 
-g) 
-h) 
+a) fales
+b) true
+c) fales
+d) fales
+e) fales
+f) fales
+g) true
+h) fales
 ```
 
 ## Conditionals
@@ -111,24 +119,35 @@ Write a conditional statement that...
 ### Your solution here:
 8.  Write your javascript solution below
 ```js
-// your answer here
-```
+let number=50;      
+if (number %5 === 0 && number %3 === 0 ){
+    console.log("FizzBuzz")
+} else if(number %5 === 0){
+console.log("Buzz");
+} else if(number %3 === 0  ){
+console.log("Fizz");
+ } else { console.log(num)
+}
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
-// your answer here
+
+for (let i = 0; i < 100; i++) {
+if (i > 100 ) break;
+ alert(i);
+}
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
-// your answer here
-```
 
-# Additional Resources
-For more practice read about...
-- https://javascript.info/variables
-- https://javascript.info/types
-- https://javascript.info/operators
-- https://javascript.info/comparison
-- https://javascript.info/ifelse
-- https://javascript.info/logical-operators
+let j= 10;
+function number(i) {
+  for (let i = 0; i < j; i++) {
+
+         if (i > j) break ;
+    }
+
+    alert( i ); 
+  
+}
