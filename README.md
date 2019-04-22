@@ -8,7 +8,7 @@
     - https://blog.codeanalogies.com/2018/06/18/javascript-booleans-explained-by-going-to-court/ (reading)
 
 
-## Activity Assignment
+## Assignment Operator
 Without running the following code, try to determine:
 
 ```js
@@ -35,7 +35,7 @@ b is ...
 c is ...
 ```
 
-## Activity Concatenation
+## Concatenation
 Use the `+` operator to concatenate these strings together within a `console.log()`: "Please", "squeeze", "the", "cheese". Make sure there are spaces in-between each word.
 
 ```js
@@ -74,7 +74,7 @@ const num2 = 10;
 console.log()
 ```
 
-## Activity Comparisons
+## Comparisons
 By just looking at the following expressions, determine in your mind whether or not each will evaluate to true or false
 ```
 a) 999 > 999
@@ -99,7 +99,7 @@ g)
 h) 
 ```
 
-## Activity Conditionals
+## Conditionals
 Declare a variable equal to a number 0 to 100
 
 Write a conditional statement that...
