@@ -21,8 +21,7 @@ b = c;
 c = a;
 ```
 
-### Your solution here:
-1.  What is `a`?
+### Your solution here:1.  What is `a`?
 ```
 a is ...bongos
 ```
@@ -34,6 +33,7 @@ b is ...true
 ```
 c is ...bongos
 ```
+
 
 ## Concatenation
 Use the `+` operator to concatenate these strings together within a `console.log()`: "Please", "squeeze", "the", "cheese". Make sure there are spaces in-between each word.
@@ -48,14 +48,14 @@ Result should be:
 ```js
 "Please squeeze the cheese"
 ```
-let firstWord = "Please";
+
+
+### Your solution here:let firstWord = "Please";
 let secondWord = "squeeze";
 let thirdWord = "the";
 let fourthWord = "cheese";
 console.log(" "+firstWord+" "+secondWord+" "+thirdWord+" "+fourthWord+" ");
 VM329:5  Please squeeze the cheese 
-
-### Your solution here:
 4.  Fill in the `console.log()`?
 ```js
 console.log()
@@ -67,22 +67,23 @@ const num1 = 5;
 const num2 = 10;
 ```
 
-### Your solution here:
-let num1=5;
+### Your solution here:let num1=5;
 let num2=10;
 let num3=num1+num2;
 console.log("the "+num1+"+"+num2+"="+num3+" .");
 VM535:4 the 5+10=15 .
 
+
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
-// your solution here
-```
+// your solution here 
 let num1=5;
 let num2=10;
 let num3=num1+num2;
 console.log("the "+num1+"+"+num2+"="+num3+" .");
 VM535:4 the 5+10=15 .
+```
+
 
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
@@ -142,8 +143,7 @@ Write a conditional statement that...
 ### Your solution here:
 8.  Write your javascript solution below
 ```js
-// your answer here
-```
+// your answer here 
 let num=15;
 if (num%3==0 && num%5==0){console.log("FizzBuzz");} 
 else if(num%3==0){console.log("Fizz");}
@@ -153,6 +153,8 @@ console.log("the num is "+num+" .");
 
 VM650:2 FizzBuzz
 VM650:6 the num is 15 .
+```
+
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
@@ -172,8 +174,7 @@ VM764:2 100
 ```
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
-// your answer here
-```
+// your answer here 
 for(i=0;5>i;i++){
 console.log(+i);}
 VM804:2 0
@@ -181,6 +182,8 @@ VM804:2 1
 VM804:2 2
 VM804:2 3
 VM804:2 4
+```
+
 
 # Additional Resources
 For more practice read about...
