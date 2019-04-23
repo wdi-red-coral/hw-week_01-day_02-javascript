@@ -65,7 +65,6 @@ const num2 = 10;
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
 let num3 = num1 + num2
-// your solution here
 ```
 6.  Use variables `num1`, `num2` and `num3` to fill in the `console.log()` to complete the sentence: 
 
@@ -122,7 +121,6 @@ if ( num % 3 === 0 && num % 5 ===0 ) {
 } else {
     console.log(num)
 }
-// your answer here
 ```
 
 #### BONUS
