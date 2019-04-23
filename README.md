@@ -148,7 +148,7 @@ if ( i % 10 === 0 && i % 5 ===0 ) {
 ```js
 // your answer here
 function isMultiply(myNum){
-if ( myNum % 10 === 0 && myNum % 5 ===0 ) {
+if ( myNum % 3 === 0 && myNum % 5 ===0 ) {
      console.log('fizzbuzz')
 } else if ( myNum % 3 === 0 ) {
      console.log('fizz')
