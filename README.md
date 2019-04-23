@@ -49,16 +49,14 @@ Result should be:
 "Please squeeze the cheese"
 ```
 
-
-### Your solution here:let firstWord = "Please";
+4.  Fill in the `console.log()`?
+```js
+let firstWord = "Please";
 let secondWord = "squeeze";
 let thirdWord = "the";
 let fourthWord = "cheese";
 console.log(" "+firstWord+" "+secondWord+" "+thirdWord+" "+fourthWord+" ");
-VM329:5  Please squeeze the cheese 
-4.  Fill in the `console.log()`?
-```js
-console.log()
+VM329:5  Please squeeze the cheese
 ```
 
 Output a console log `The sum of 5 and 10 is 15` where the values for 5 and 10 are saved to variables, and where 15 comes from those variables being summed.
@@ -67,12 +65,7 @@ const num1 = 5;
 const num2 = 10;
 ```
 
-### Your solution here:let num1=5;
-let num2=10;
-let num3=num1+num2;
-console.log("the "+num1+"+"+num2+"="+num3+" .");
-VM535:4 the 5+10=15 .
-
+### Your solution here:
 
 5.  How can we make `num3` equal to the sum of `num1` and `num2`?
 ```js
@@ -90,13 +83,13 @@ VM535:4 the 5+10=15 .
 >The sum of 5 and 10 is 15
 
 ```js
-console.log()
-```
 let num1=5;
 let num2=10;
 let num3=num1+num2;
 console.log("the sum of "+num1+" and "+num2+" is "+num3+" .");
 VM556:2 the sum of 5 and 10 is 15 .
+```
+
 
 ## Comparisons
 By just looking at the following expressions, determine in your mind whether or not each will evaluate to true or false
