@@ -111,8 +111,6 @@ Write a conditional statement that...
 ### Your solution here:
 8.  Write your javascript solution below
 ```js
-// your answer here
-```
  let num = 88;
  if ( num % 3 === 0 && num % 5 ===0 ) {
      console.log('FizzBuzz')
@@ -124,16 +122,16 @@ else if ( num % 3 === 0 ) {
 } else {
     console.log(num)
 }
+```
 
 #### BONUS
 9.  Research a [loop](https://javascript.info/while-for) so that your condition runs on every number from 0 to 100
 ```js
-// your answer here
-```
 let i =0;
 for(i=0; i<=100; i++){
 console.log(i);
 }
+```
 
 10.  Research a [function](https://javascript.info/function-basics) so that your condition runs on every number from 0 to whatever number is passed into the function
 ```js
